@@ -22,32 +22,32 @@
 
 <b>- Kullanıcı Kayıt</b>
 <p align="center">
-    <a href="https://ibb.co/hmqvSxQ"><img src="https://i.ibb.co/fxc7sV6/register.png" alt="register" border="0"></a>
+    <a target="_blank" href="https://ibb.co/hmqvSxQ"><img src="https://i.ibb.co/fxc7sV6/register.png" alt="register" border="0"></a>
 </p>
 
 <b>- Kullanıcı Giriş</b>
 <p align="center">
-    <a href="https://ibb.co/gtvH72x"><img src="https://i.ibb.co/j3VB5NS/login.png" alt="login" border="0"></a>
+    <a target="_blank" href="https://ibb.co/gtvH72x"><img src="https://i.ibb.co/j3VB5NS/login.png" alt="login" border="0"></a>
 </p>
 
 <b>- Ürün Oluşturma</b>
 <p align="center">
-    <a href="https://ibb.co/7WtbPLX"><img src="https://i.ibb.co/3Nmk2Q7/create.png" alt="create" border="0"></a>
+    <a target="_blank" href="https://ibb.co/7WtbPLX"><img src="https://i.ibb.co/3Nmk2Q7/create.png" alt="create" border="0"></a>
 </p>
 
 <b>- Ürün Güncelleme</b>
 <p align="center">
-    <a href="https://ibb.co/G0n29Cp"><img src="https://i.ibb.co/g3mTdt9/update.png" alt="update" border="0"></a>
+    <a target="_blank" href="https://ibb.co/G0n29Cp"><img src="https://i.ibb.co/g3mTdt9/update.png" alt="update" border="0"></a>
 </p>
 
 <b>- Ürün Detay Görüntüleme</b>
 <p align="center"> 
-    <a href="https://ibb.co/gd4z2Pt"><img src="https://i.ibb.co/8bY6CdP/details.png" alt="details" border="0"></a>
+    <a target="_blank" href="https://ibb.co/gd4z2Pt"><img src="https://i.ibb.co/8bY6CdP/details.png" alt="details" border="0"></a>
 </p>
 
 <b>- Tüm Ürünleri Görüntüleme</b>
 <p align="center">
-    <a href="https://ibb.co/4mYTw9C"><img src="https://i.ibb.co/6n1PcVG/all.png" alt="all" border="0"></a>
+    <a target="_blank" href="https://ibb.co/4mYTw9C"><img src="https://i.ibb.co/6n1PcVG/all.png" alt="all" border="0"></a>
 </p>
 
 
