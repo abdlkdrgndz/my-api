@@ -4,9 +4,9 @@
     <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 </p>
 
-## [TODO] Challenge App
-<p>Bu todoApp uygulamasında Laravel'in birçok noktasına değinilmeye çalışılmıştır.</p>
-<p>Laravel mimarisinin dışında mikroservis yapısı da dikkate alınmıştır. <b>Infrastructure</b> (Alt yapı) klasörü altında interface Service ve Repository pattern için Interface tanımlanmıştır.</p>
+## [TODO] Challenge restApi Application
+<p>Bu todoApp restApi uygulamasında Laravel'in birçok özelliği kullanılmaya çalışılmıştır. Laravel mimarisinin dışında mikroservis yapısı da dikkate alınmıştır.</p>
+<p><b>Infrastructure</b> (Alt yapı) klasörü altında interface Service ve Repository pattern için Interface tanımlanmıştır.</p>
 <p><b style="background: #0A7BBB; padding:4px; border-radius: 5px;">Concrete</b> klasörü altında ana Repository ve Service yapıları mevcuttur. Service-Repository ile işlemler gerçekleştirilir. Controller da ise sadece servis ile iletişim söz konusudur.</p>
 <p><b style="background: #ef600e; padding:4px; border-radius: 5px;">Trait</b> yapılarında her yerde default kullanılabilecek, tekrarı engelleyen methodlar tanımlanmıştır. Örn: Cache ve Return Message</p>
 <p><b style="background: #ef600e; padding:4px; border-radius: 5px;">Middleware</b> klasöründe yer alan ApiToken middleware ile OAuth mantığında bir Auth işlemi gerçekleştirilir ve istenilen route yapılarına tanımlanabilir.</p>
