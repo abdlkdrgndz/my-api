@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b6bc5bd-8a06-4619-a240-fb4d0b153c73" name="Default Changelist" comment="caching trait created and integrated">
-      <change afterPath="$PROJECT_DIR$/database/migrations/create_activity_log_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tkns-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tkns-app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/ProductModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/ProductModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+    <list default="true" id="1b6bc5bd-8a06-4619-a240-fb4d0b153c73" name="Default Changelist" comment="log activity package integrated to product model">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +195,7 @@
       <workItem from="1614338469682" duration="147000" />
       <workItem from="1614363113171" duration="136000" />
       <workItem from="1614363876303" duration="359000" />
-      <workItem from="1637422710283" duration="11161000" />
+      <workItem from="1637422710283" duration="12262000" />
     </task>
     <task id="LOCAL-00001" summary="new devs added">
       <created>1637423414143</created>
@@ -231,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637434675914</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="log activity package integrated to product model">
+      <created>1637436029400</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637436029400</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +254,7 @@
     <MESSAGE value="trait structure added" />
     <MESSAGE value="all service and repository process completed" />
     <MESSAGE value="caching trait created and integrated" />
-    <option name="LAST_COMMIT_MESSAGE" value="caching trait created and integrated" />
+    <MESSAGE value="log activity package integrated to product model" />
+    <option name="LAST_COMMIT_MESSAGE" value="log activity package integrated to product model" />
   </component>
 </project>
