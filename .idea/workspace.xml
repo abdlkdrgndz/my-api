@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b6bc5bd-8a06-4619-a240-fb4d0b153c73" name="Default Changelist" comment="" />
+    <list default="true" id="1b6bc5bd-8a06-4619-a240-fb4d0b153c73" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/ApiToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/ApiToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +14,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -147,8 +154,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/webProjects/lara-projects/ea/Enlink - Bootstrap Admin Template/demo/app" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -169,13 +178,33 @@
       <workItem from="1611170398645" duration="48000" />
       <workItem from="1614231116902" duration="5324000" />
       <workItem from="1614236760256" duration="1737000" />
+      <workItem from="1614338469682" duration="147000" />
+      <workItem from="1614363113171" duration="136000" />
+      <workItem from="1614363876303" duration="359000" />
+      <workItem from="1637422710283" duration="521000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="526" y="192" key="FileChooserDialogImpl" timestamp="1614363255807">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="2106" y="274" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614243070951" />
+    <state x="526" y="192" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1614363255807" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1610559168476">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -192,6 +221,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610559168476" />
+    <state x="1827" y="164" key="SettingsEditor" timestamp="1614338616985">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1827" y="164" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614338616985" />
     <state x="389" y="0" width="587" height="728" key="find.popup" timestamp="1610736649177">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

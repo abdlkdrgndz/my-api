@@ -21,12 +21,12 @@ class ApiToken
         if($auth){
             $token = str_replace('Bearer ','',$auth);
             if(!$token){
-                return response()->json(['message' => 'Kullanıcı başarısız'],401);
+                return response()->json(['message' => 'User invalid.'],401);
             }
 
             $user = User::where('api_token',$token)->first();
             if(!$user){
-                return response()->json(['message' => 'Kullanıcı bulunamadı'],401);
+                return response()->json(['message' => 'User not found.'],401);
             }
             auth()->setUser($user);
             return $next($request);

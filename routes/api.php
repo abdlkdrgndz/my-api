@@ -15,7 +15,9 @@ use App\Http\Controllers\API\ProductController;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
+/**
+ * Custom Routes
+ */
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
@@ -23,10 +25,20 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::post('auth/login', [AuthController::class, 'login']);
 Route::post('auth/register', [AuthController::class, 'register']);
 
+/**
+ * Product Process Routes
+ */
 Route::group(['prefix' => '/', 'middleware' => ['api_token']], function (){
     Route::post('product_create', [ProductController::class, 'store']);
     Route::post('product_update', [ProductController::class, 'update']);
     Route::get('product_detail/{id}', [ProductController::class, 'show']);
     Route::get('all_products', [ProductController::class, 'index']);
 });
+
+/**
+ * Apı Resource
+ */
+Route::apiResources([
+    '/products' => ProductController::class
+]);
 
