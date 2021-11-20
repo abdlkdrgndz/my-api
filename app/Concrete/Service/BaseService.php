@@ -7,7 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class BaseService implements IService
 {
-
     public function getAll()
     {
         // TODO: Implement getAll() method.

@@ -4,9 +4,12 @@ namespace App\Concrete\Service;
 
 use App\Concrete\Repository\ProductRepository;
 use App\Infrastructure\Service\IProductService;
+use App\Traits\Caching;
 
 class ProductService extends BaseService implements IProductService
 {
+    use Caching;
+
     /**
      * @var ProductRepository
      */
@@ -29,7 +32,8 @@ class ProductService extends BaseService implements IProductService
      */
     public function getAll()
     {
-        return $this->repository->getAll();
+        $products = $this->repository->getAll();
+        return $this->setOrGetData('products', $products, 7200);
     }
 
     /**

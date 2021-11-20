@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b6bc5bd-8a06-4619-a240-fb4d0b153c73" name="Default Changelist" comment="trait structure added">
-      <change afterPath="$PROJECT_DIR$/app/Concrete/Repository/ProductRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Concrete/Service/BaseService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Concrete/Service/ProductService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Products/ProductUpdateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Infrastructure/Repository/IProductRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Infrastructure/Service/IProductService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Infrastructure/Service/IService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/messages.php" afterDir="false" />
+    <list default="true" id="1b6bc5bd-8a06-4619-a240-fb4d0b153c73" name="Default Changelist" comment="all service and repository process completed">
+      <change afterPath="$PROJECT_DIR$/app/Traits/Caching.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Concrete/Service/BaseService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Concrete/Service/BaseService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Concrete/Service/ProductService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Concrete/Service/ProductService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BaseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/messages.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +199,7 @@
       <workItem from="1614338469682" duration="147000" />
       <workItem from="1614363113171" duration="136000" />
       <workItem from="1614363876303" duration="359000" />
-      <workItem from="1637422710283" duration="5890000" />
+      <workItem from="1637422710283" duration="9755000" />
     </task>
     <task id="LOCAL-00001" summary="new devs added">
       <created>1637423414143</created>
@@ -219,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637424215307</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="all service and repository process completed">
+      <created>1637428779276</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637428779276</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +242,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new devs added" />
     <MESSAGE value="trait structure added" />
-    <option name="LAST_COMMIT_MESSAGE" value="trait structure added" />
+    <MESSAGE value="all service and repository process completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="all service and repository process completed" />
   </component>
 </project>

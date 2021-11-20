@@ -22,6 +22,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+/**
+ * Auth Routes
+ */
 Route::post('auth/login', [AuthController::class, 'login']);
 Route::post('auth/register', [AuthController::class, 'register']);
 
@@ -36,7 +39,7 @@ Route::group(['prefix' => '/', 'middleware' => ['api_token']], function (){
 });
 
 /**
- * Apı Resource
+ * Api Resource Routes
  */
 Route::apiResources([
     '/products' => ProductController::class

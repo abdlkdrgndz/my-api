@@ -17,5 +17,6 @@ return [
     'created' => 'The creation process was successful.',
     'updated' => 'The update was successful.',
     'deleted' => 'The delete was successful.',
+    'notFound' => 'Not found.',
 
 ];
