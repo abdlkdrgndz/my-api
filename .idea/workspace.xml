@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b6bc5bd-8a06-4619-a240-fb4d0b153c73" name="Default Changelist" comment="ProductDTO added">
-      <change afterPath="$PROJECT_DIR$/app/Traits/DevicePlatform.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_11_20_200343_create_jobs_table.php" afterDir="false" />
+    <list default="true" id="1b6bc5bd-8a06-4619-a240-fb4d0b153c73" name="Default Changelist" comment="readme file updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/UserAgentController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/ApiToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/ApiToken.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Device.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Device.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +201,7 @@
       <workItem from="1614338469682" duration="147000" />
       <workItem from="1614363113171" duration="136000" />
       <workItem from="1614363876303" duration="359000" />
-      <workItem from="1637422710283" duration="15350000" />
+      <workItem from="1637422710283" duration="16607000" />
     </task>
     <task id="LOCAL-00001" summary="new devs added">
       <created>1637423414143</created>
@@ -278,7 +273,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637438427173</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="device platform information added">
+      <created>1637440208858</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1637440208858</updated>
+    </task>
+    <task id="LOCAL-00012" summary="readme file updated">
+      <created>1637440489403</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1637440489403</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +316,8 @@
     <MESSAGE value="DT0 structure added to app" />
     <MESSAGE value="readme.md file was updated" />
     <MESSAGE value="ProductDTO added" />
-    <option name="LAST_COMMIT_MESSAGE" value="ProductDTO added" />
+    <MESSAGE value="device platform information added" />
+    <MESSAGE value="readme file updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme file updated" />
   </component>
 </project>
