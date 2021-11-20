@@ -2,18 +2,22 @@
 
 namespace App\Http\Controllers\API;
 
-use App\Http\Controllers\Controller;
+use App\Http\Controllers\BaseController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use Jenssegers\Agent\Agent;
 
-class UserAgentController extends Controller
+class UserAgentController extends BaseController
 {
-    public static function set_mobile_infos(Request $request) {
+    /**
+     * @return array
+     */
+    public static function getMobileInfos(): array
+    {
 
         $agent = new Agent();
 
-        $infos = [
+        return [
             'uid' => hash(Str::random(16)),
             'appId' => hash(Str::random(16)),
             'device' => $agent->device(),

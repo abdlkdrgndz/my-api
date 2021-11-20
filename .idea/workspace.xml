@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b6bc5bd-8a06-4619-a240-fb4d0b153c73" name="Default Changelist" comment="">
+    <list default="true" id="1b6bc5bd-8a06-4619-a240-fb4d0b153c73" name="Default Changelist" comment="new devs added">
+      <change afterPath="$PROJECT_DIR$/app/Traits/Responser.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/ApiToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/ApiToken.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/UserAgentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/UserAgentController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,8 +182,16 @@
       <workItem from="1614338469682" duration="147000" />
       <workItem from="1614363113171" duration="136000" />
       <workItem from="1614363876303" duration="359000" />
-      <workItem from="1637422710283" duration="521000" />
+      <workItem from="1637422710283" duration="1282000" />
     </task>
+    <task id="LOCAL-00001" summary="new devs added">
+      <created>1637423414143</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637423414143</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,39 +208,8 @@
       </map>
     </option>
   </component>
-  <component name="WindowStateProjectService">
-    <state x="526" y="192" key="FileChooserDialogImpl" timestamp="1614363255807">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="2106" y="274" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614243070951" />
-    <state x="526" y="192" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1614363255807" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1610559168476">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610559168476" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1610559168476">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610559168476" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1610559168475">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610559168475" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1610559168476">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610559168476" />
-    <state x="1827" y="164" key="SettingsEditor" timestamp="1614338616985">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1827" y="164" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614338616985" />
-    <state x="389" y="0" width="587" height="728" key="find.popup" timestamp="1610736649177">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="389" y="0" width="587" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1610736649177" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1610562718056">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610562718056" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new devs added" />
+    <option name="LAST_COMMIT_MESSAGE" value="new devs added" />
   </component>
 </project>
