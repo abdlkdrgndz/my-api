@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b6bc5bd-8a06-4619-a240-fb4d0b153c73" name="Default Changelist" comment="DT0 structure added to app">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="1b6bc5bd-8a06-4619-a240-fb4d0b153c73" name="Default Changelist" comment="ProductDTO added">
+      <change afterPath="$PROJECT_DIR$/app/Traits/DevicePlatform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_11_20_200343_create_jobs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/UserAgentController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/ApiToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/ApiToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Device.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Device.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/messages.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,14 +160,18 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1mi5WwjnLydIOx861nxnjDcaXcw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang/en" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Traits" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -169,6 +179,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\path-api\app\Traits" />
       <recent name="C:\xampp\htdocs\path-api\resources\lang\en" />
       <recent name="C:\xampp\htdocs\path-api\app\Http\Requests\Products" />
     </key>
@@ -195,7 +206,7 @@
       <workItem from="1614338469682" duration="147000" />
       <workItem from="1614363113171" duration="136000" />
       <workItem from="1614363876303" duration="359000" />
-      <workItem from="1637422710283" duration="13332000" />
+      <workItem from="1637422710283" duration="15350000" />
     </task>
     <task id="LOCAL-00001" summary="new devs added">
       <created>1637423414143</created>
@@ -253,7 +264,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637438052338</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="readme.md file was updated">
+      <created>1637438367305</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1637438367305</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ProductDTO added">
+      <created>1637438427173</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1637438427173</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +296,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="new devs added" />
     <MESSAGE value="trait structure added" />
     <MESSAGE value="all service and repository process completed" />
@@ -279,6 +305,8 @@
     <MESSAGE value="readme.md file updated" />
     <MESSAGE value="doc updated" />
     <MESSAGE value="DT0 structure added to app" />
-    <option name="LAST_COMMIT_MESSAGE" value="DT0 structure added to app" />
+    <MESSAGE value="readme.md file was updated" />
+    <MESSAGE value="ProductDTO added" />
+    <option name="LAST_COMMIT_MESSAGE" value="ProductDTO added" />
   </component>
 </project>

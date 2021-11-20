@@ -18,5 +18,7 @@ return [
     'updated' => 'The update was successful.',
     'deleted' => 'The delete was successful.',
     'notFound' => 'Not found.',
-
+    'userInvalid' => 'User invalid.',
+    'userNotFound' => 'User not found.',
+    'tokenInvalid' => 'Token invalid.',
 ];
