@@ -2,74 +2,77 @@
 
 namespace App\Http\Controllers\API;
 
+use App\Concrete\Service\ProductService;
 use App\Http\Controllers\BaseController;
-use App\Models\ProductModel;
-use Carbon\Carbon;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Str;
+use App\Http\Requests\Products\ProductUpdateRequest;
+use Illuminate\Http\JsonResponse;
 
 class ProductController extends BaseController
 {
+    private $service;
+
+    public function __construct(ProductService $service)
+    {
+        $this->service = $service;
+    }
+
     /**
      * Product List
      *
-     * @return \Illuminate\Http\JsonResponse
+     * @return JsonResponse
      */
-    public function index()
+    public function index(): JsonResponse
     {
-        $all_products = ProductModel::all();
-        return $all_products ? response()->json(['message' => 'All products listed.', 'ProductInfo:' => $all_products], 200) : response()->json(['failed' => 'Undefined error.']);
+        $results = $this->service->getAll();
+        return $this->successMessage($results, 'All products listed.', 200);
     }
 
     /**
      * Store a newly created resource in storage.
      * Product Create
-     * @param \Illuminate\Http\Request $request
-     * @return \Illuminate\Http\JsonResponse
+     * @param ProductUpdateRequest $request
+     * @return JsonResponse
      */
-    public function store(Request $request)
+    public function store(ProductUpdateRequest $request): JsonResponse
     {
-        $create = ProductModel::create([
-            'provider_id' => Auth::id(),
-            'name' => $request->get('name'),
-            'order_code' => Auth::id() . "-" . Str::random(15) . rand(0, 5),
-            'quantity' => $request->get('quantity'),
-            'address' => $request->get('address'),
-            'price' => $request->get('price'),
-            'shipping_date' => Carbon::now()->addDay(3),
-        ]);
+        $inputs = $request->validated();
+        $results = $this->service->addBy($inputs);
 
-        return $create ? response()->json(['message' => 'Product saved', 'ProductInfo:' => $create], 200) : response()->json(['failed' => 'Not created product.']);
+        return $this->successMessage($results, trans('messages.created'), 200);
     }
 
     /**
-     * Display the specified resource.
+     * Display product details
      * Product Detail Show
      * @param int $id
-     * @return \Illuminate\Http\JsonResponse
+     * @return JsonResponse
      */
-    public function show($id)
+    public function show(int $id): JsonResponse
     {
-        $details = ProductModel::where('id', $id)->get();
-        return $details ? response()->json(['message' => 'success', 'ProductInfo:' => $details], 200) : response()->json(['failed' => 'Undefined error.']);
+        $results = $this->service->show($id);
+        return $this->successMessage($results, trans('messages.showed'), 200);
     }
 
     /**
      * Update the specified resource in storage.
      * Product Update - by shippingDate
-     * @param \Illuminate\Http\Request $request
-     * @return \Illuminate\Http\JsonResponse
+     * @param ProductUpdateRequest $request
+     * @return JsonResponse
      */
-    public function update(Request $request)
+    public function update(ProductUpdateRequest $request): JsonResponse
     {
-        $update = ProductModel::where('id', $request->get('id'))->whereDate('shipping_date', '>', Carbon::now())->
-        update([
-            'name' => $request->get('name'),
-            'quantity' => $request->get('quantity'),
-            'price' => $request->get('price'),
-            'address' => $request->get('address')
-        ]);
-        return $update ? response()->json(['message' => 'Product updated.', 'productId' => $request->get('id'), 'productInfo' => ProductModel::where('id', $request->get('id'))->get()]) : response()->json(['failed' => 'Not updated product.']);
+        $inputs = $request->validated();
+        $results = $this->service->updateBy($inputs);
+        return $this->successMessage($results, trans('messages.updated'), 200);
+    }
+
+    /**
+     * @param int $id
+     * @return JsonResponse
+     */
+    public function destroy(int $id): JsonResponse
+    {
+        $results = $this->service->delete($id);
+        return $this->successMessage($results, trans('messages.deleted'), 200);
     }
 }
