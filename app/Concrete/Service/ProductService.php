@@ -3,6 +3,7 @@
 namespace App\Concrete\Service;
 
 use App\Concrete\Repository\ProductRepository;
+use App\Http\Resources\ProductDTO;
 use App\Infrastructure\Service\IProductService;
 use App\Traits\Caching;
 
@@ -32,7 +33,7 @@ class ProductService extends BaseService implements IProductService
      */
     public function getAll()
     {
-        $products = $this->repository->getAll();
+        $products = ProductDTO::collection($this->repository->getAll());
         return $this->setOrGetData('products', $products, 7200);
     }
 
