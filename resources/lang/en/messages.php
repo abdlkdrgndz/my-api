@@ -13,6 +13,7 @@ return [
     |
     */
 
+    'listed' => 'All products listed.',
     'showed' => 'Display successful.',
     'created' => 'The creation process was successful.',
     'updated' => 'The update was successful.',
@@ -21,4 +22,5 @@ return [
     'userInvalid' => 'User invalid.',
     'userNotFound' => 'User not found.',
     'tokenInvalid' => 'Token invalid.',
+    'operationCompleted' => 'Operation is completed',
 ];

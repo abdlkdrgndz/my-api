@@ -7,6 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class BaseService implements IService
 {
+    public function __construct(\App\Concrete\Repository\ProductRepository $repository)
+    {
+    }
+
     public function getAll()
     {
         // TODO: Implement getAll() method.

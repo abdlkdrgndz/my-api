@@ -17,7 +17,7 @@ trait Responder
     {
         return response()->json([
             'success' => true,
-            'message' => $message ?? 'Operation is completed',
+            'message' => $message ?? trans('messages.operationCompleted'),
             'data' => $data
         ], $code);
     }

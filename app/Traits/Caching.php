@@ -11,21 +11,13 @@ trait Caching
     /**
      * Cache set data
      * @param string $key
-     * @param array $value
-     * @param string $store
+     * @param $value
      * @param integer $time
      * @return bool
      */
-    protected function setData(string $key, array $value, string $store, int $time): bool
+    protected function setData(string $key, $value, int $time = 3600): bool
     {
-        /**
-         * Use default .env file cache
-         */
-        if (!$store) {
-            return Cache::put($key, $value, $time);
-        }
-
-        return Cache::store($store)->put($key, $value, $time);
+        return Cache::put($key, $value, $time);
     }
 
     /**
@@ -43,14 +35,15 @@ trait Caching
 
     /**
      * @param string $key
-     * @param array|null $value
+     * @param $value
      * @param int|null $time
      * @return mixed
      */
-    protected function setOrGetData(string $key, ?array $value, ?int $time)
+    protected function setOrGetData(string $key, $value, ?int $time = 3600)
     {
         if (!Cache::has($key)) {
-            return $this->setData($key, $value, env('CACHE_DRIVER'), $time);
+            $this->setData($key, $value, $time);
+            return Cache::get($key);
         }
         return Cache::get($key);
     }

@@ -33,7 +33,8 @@ class ProductService extends BaseService implements IProductService
      */
     public function getAll()
     {
-        $products = ProductDTO::collection($this->repository->getAll());
+        // $products = ProductDTO::collection($this->repository->getAll());
+        $products = $this->repository->getAll();
         return $this->setOrGetData('products', $products, 7200);
     }
 

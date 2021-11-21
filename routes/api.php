@@ -29,9 +29,10 @@ Route::post('auth/login', [AuthController::class, 'login']);
 Route::post('auth/register', [AuthController::class, 'register']);
 
 /**
+ * Use in routes -> 'middleware' => ['api_token']
  * Product Process Routes
  */
-Route::group(['prefix' => '/', 'middleware' => ['api_token']], function (){
+Route::group(['prefix' => '/'], function (){
     Route::post('product_create', [ProductController::class, 'store']);
     Route::post('product_update', [ProductController::class, 'update']);
     Route::get('product_detail/{id}', [ProductController::class, 'show']);

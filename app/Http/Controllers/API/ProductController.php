@@ -9,6 +9,9 @@ use Illuminate\Http\JsonResponse;
 
 class ProductController extends BaseController
 {
+    /**
+     * @var ProductService
+     */
     private $service;
 
     public function __construct(ProductService $service)
@@ -24,7 +27,7 @@ class ProductController extends BaseController
     public function index(): JsonResponse
     {
         $results = $this->service->getAll();
-        return $this->successMessage($results, 'All products listed.', 200);
+        return $this->successMessage($results, trans('messages.listed'), 200);
     }
 
     /**

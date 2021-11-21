@@ -14,7 +14,7 @@ class ProductRepository
      */
     public function getAll()
     {
-        return ProductModel::all();
+        return ProductModel::all()->toArray();
     }
 
     /**

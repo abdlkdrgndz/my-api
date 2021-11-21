@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b6bc5bd-8a06-4619-a240-fb4d0b153c73" name="Default Changelist" comment="readme file updated">
+    <list default="true" id="1b6bc5bd-8a06-4619-a240-fb4d0b153c73" name="Default Changelist" comment="readme file new devs added">
+      <change afterPath="$PROJECT_DIR$/database/seeders/ProductSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/ProductTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Concrete/Repository/ProductRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Concrete/Repository/ProductRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Concrete/Service/BaseService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Concrete/Service/BaseService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Concrete/Service/ProductService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Concrete/Service/ProductService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Traits/Caching.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Traits/Caching.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Traits/Responder.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Traits/Responder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.postman_collection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/update.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,6 +220,7 @@
       <workItem from="1614363113171" duration="136000" />
       <workItem from="1614363876303" duration="359000" />
       <workItem from="1637422710283" duration="16607000" />
+      <workItem from="1637452870192" duration="4397000" />
     </task>
     <task id="LOCAL-00001" summary="new devs added">
       <created>1637423414143</created>
@@ -303,6 +322,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
