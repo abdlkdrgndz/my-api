@@ -14,4 +14,5 @@
 <p><b style="background: #EF3B2D; padding:4px; border-radius: 5px;">Log</b> işlemleri için <a target="_blank" href="https://github.com/spatie/laravel-activitylog">ActivityLog</a> kütüphanesi kullanılmıştır. Laravel'in Model Observer yapısına uygun, veritabanı CRUD hareketlerini takip edip log işlemlerini model üzerinden otomatik olarak veritabanına kaydetmektedir. <a target="_blank" href="https://github.com/abdlkdrgndz/path-api/blob/main/app/Models/ProductModel.php">[bkz]</a></p>
 <p><b style="background: #891f72; padding:4px; border-radius: 5px;">Data Transfer Object</b> yapısı ile eşdeğer Resources(Collection) kullanılarak ürünlerin ayrıntılı meta bilgileri ile standart json tipi veri dönüş işlemleri <a target="_blank" href="https://github.com/abdlkdrgndz/path-api/blob/main/app/Concrete/Service/ProductService.php">ProductService</a> içinde index metodunda yapılmıştır. <a target="_blank" href="https://github.com/abdlkdrgndz/path-api/blob/main/app/Http/Resources/ProductDTO.php">[bkz]</a> </p>
 <p>Çıktılar:</p>
-<img src="" alt="">
+<img src="https://github.com/abdlkdrgndz/path-api/blob/main/public/images/output1.PNG" alt="">
+<img src="https://github.com/abdlkdrgndz/path-api/blob/main/public/images/output2.PNG" alt="">
