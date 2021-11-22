@@ -21,7 +21,6 @@ trait DevicePlatform
     }
 
     /**
-     * @param Agent $agent
      * @return array
      */
     protected function setDevicePlatform(): array
