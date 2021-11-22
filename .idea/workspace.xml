@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b6bc5bd-8a06-4619-a240-fb4d0b153c73" name="Default Changelist" comment="laravel updated">
-      <change afterPath="$PROJECT_DIR$/storage/define.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+    <list default="true" id="1b6bc5bd-8a06-4619-a240-fb4d0b153c73" name="Default Changelist" comment="file updated">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +202,7 @@
       <workItem from="1614363876303" duration="359000" />
       <workItem from="1637422710283" duration="16607000" />
       <workItem from="1637452870192" duration="4713000" />
-      <workItem from="1637602582950" duration="321000" />
+      <workItem from="1637602582950" duration="733000" />
     </task>
     <task id="LOCAL-00001" summary="new devs added">
       <created>1637423414143</created>
@@ -310,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637602896750</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="file updated">
+      <created>1637602931902</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1637602931902</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,6 +350,8 @@
     <MESSAGE value="readme file updated" />
     <MESSAGE value="db seeder added&#10;product listed bug fix&#10;ProductService developments" />
     <MESSAGE value="laravel updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="laravel updated" />
+    <MESSAGE value="some bug fix" />
+    <MESSAGE value="file updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="file updated" />
   </component>
 </project>
