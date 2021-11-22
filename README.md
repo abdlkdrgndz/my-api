@@ -5,8 +5,8 @@
 </p>
 
 ## [TODO] Challenge restApi Application
-<p>Bu todoApp restApi uygulamasında Laravel'in birçok özelliği kullanılmaya çalışılmıştır. Laravel mimarisinin dışında mikroservis mimarisi de dikkate aldım. Genel Restful API kurallarını da uyguladım.</p>
-<p>Bu uygulama ile kullanıcı kaydı oluşturma, giriş yapma ve kayıt gerçekleştirirken device platform bilgileri alınarak device tablosuna eklenmektedir. Bunun dışında ürün oluşturma, ayrıntı görüntüleme, güncelleme ve silme gibi CRUD işlemleri yapılmaktadır.</p>
+<p>Bu todoApp restApi uygulamasında Laravel 8 ile geliştirme yapılmış ve birçok özelliği kullanılmaya çalışılmıştır. Laravel mimarisinin dışında mikroservis mimarisi de dikkate aldım. Genel Restful API kurallarını da uyguladım.</p>
+<p>Kullanıcı kaydı oluşturma, giriş yapma ve kayıt gerçekleştirirken device platform bilgileri alınarak device tablosuna eklenmektedir. Bunun dışında ürün oluşturma, ayrıntı görüntüleme, güncelleme ve silme gibi CRUD işlemleri yapılmaktadır.</p>
 <p><b>Infrastructure</b> (Alt yapı) klasörü altında interface Service ve Repository pattern için Interface tanımlanmıştır.</p>
 <p><b style="background: #0A7BBB; padding:4px; border-radius: 5px;">Concrete</b> klasörü altında ana Repository ve Service yapıları mevcuttur. Service-Repository ile işlemler gerçekleştirilir. Controller da ise sadece servis ile iletişim söz konusudur.</p>
 <p><b style="background: #ef600e; padding:4px; border-radius: 5px;">Trait</b> yapılarında her yerde default kullanılabilecek, tekrarı engelleyen methodlar tanımlanmıştır. Örn: Cache ve error mesajları için tanımlamalar yapılmıştır. <a target="_blank" href="https://github.com/abdlkdrgndz/my-api/blob/main/app/Traits/Responder.php">[bkz]</a></p>
