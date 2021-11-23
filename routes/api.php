@@ -33,9 +33,6 @@ Route::post('auth/register', [AuthController::class, 'register']);
  * Product Process Routes
  */
 Route::group(['prefix' => '/'], function (){
-    Route::post('product_create', [ProductController::class, 'store']);
-    Route::post('product_update', [ProductController::class, 'update']);
-    Route::get('product_detail/{id}', [ProductController::class, 'show']);
     Route::get('all_products', [ProductController::class, 'index']);
 });
 
@@ -43,6 +40,6 @@ Route::group(['prefix' => '/'], function (){
  * Api Resource Routes
  */
 Route::apiResources([
-    '/products' => ProductController::class
+    'products' => ProductController::class
 ]);
 

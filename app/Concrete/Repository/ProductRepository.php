@@ -34,7 +34,7 @@ class ProductRepository
     public function addBy(array $data)
     {
         return ProductModel::create([
-            'provider_id' => Auth::id(),
+            'provider_id' => Auth::id() ?? 1,
             'name' => $data['name'],
             'order_code' => Auth::id() . "-" . Str::random(15) . rand(0, 5),
             'quantity' => $data['quantity'],
@@ -50,8 +50,7 @@ class ProductRepository
     public function updateBy(array $data)
     {
         return ProductModel::where('id', $data['id'])
-            ->whereDate('shipping_date', '>', Carbon::now())->
-            update([
+            ->update([
                 'name' => $data['name'],
                 'quantity' => $data['quantity'],
                 'price' => $data['price'],

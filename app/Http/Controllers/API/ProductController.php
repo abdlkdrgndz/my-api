@@ -4,6 +4,7 @@ namespace App\Http\Controllers\API;
 
 use App\Concrete\Service\ProductService;
 use App\Http\Controllers\BaseController;
+use App\Http\Requests\Products\ProductStoreRequest;
 use App\Http\Requests\Products\ProductUpdateRequest;
 use Illuminate\Http\JsonResponse;
 
@@ -33,10 +34,10 @@ class ProductController extends BaseController
     /**
      * Store a newly created resource in storage.
      * Product Create
-     * @param ProductUpdateRequest $request
+     * @param ProductStoreRequest $request
      * @return JsonResponse
      */
-    public function store(ProductUpdateRequest $request): JsonResponse
+    public function store(ProductStoreRequest $request): JsonResponse
     {
         $inputs = $request->validated();
         $results = $this->service->addBy($inputs);
@@ -60,9 +61,10 @@ class ProductController extends BaseController
      * Update the specified resource in storage.
      * Product Update - by shippingDate
      * @param ProductUpdateRequest $request
+     * @param int $id
      * @return JsonResponse
      */
-    public function update(ProductUpdateRequest $request): JsonResponse
+    public function update(ProductUpdateRequest $request, int $id): JsonResponse
     {
         $inputs = $request->validated();
         $results = $this->service->updateBy($inputs);

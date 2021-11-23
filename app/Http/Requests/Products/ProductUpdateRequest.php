@@ -48,7 +48,7 @@ class ProductUpdateRequest extends FormRequest
     public function messages()
     {
         return [
-            'id.required' => 'A :name is required'
+            'id.required' => 'A :id is required'
         ];
     }
 }
