@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b6bc5bd-8a06-4619-a240-fb4d0b153c73" name="Default Changelist" comment="database sql added" />
+    <list default="true" id="1b6bc5bd-8a06-4619-a240-fb4d0b153c73" name="Default Changelist" comment="remove unused files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -200,7 +200,7 @@
       <workItem from="1614363876303" duration="359000" />
       <workItem from="1637422710283" duration="16607000" />
       <workItem from="1637452870192" duration="4713000" />
-      <workItem from="1637602582950" duration="1451000" />
+      <workItem from="1637602582950" duration="1810000" />
     </task>
     <task id="LOCAL-00001" summary="new devs added">
       <created>1637423414143</created>
@@ -349,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637603962081</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="remove unused files">
+      <created>1637604078686</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1637604078686</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,6 +396,7 @@
     <MESSAGE value="api token updated" />
     <MESSAGE value="README.md updated" />
     <MESSAGE value="database sql added" />
-    <option name="LAST_COMMIT_MESSAGE" value="database sql added" />
+    <MESSAGE value="remove unused files" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove unused files" />
   </component>
 </project>
