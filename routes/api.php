@@ -30,11 +30,9 @@ Route::post('auth/register', [AuthController::class, 'register']);
 
 /**
  * Use in routes -> 'middleware' => ['api_token']
- * Product Process Routes
+ * Product Process Routes - Custom
  */
-Route::group(['prefix' => '/'], function (){
-    Route::get('all_products', [ProductController::class, 'index']);
-});
+
 
 /**
  * Api Resource Routes
