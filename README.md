@@ -5,7 +5,7 @@
 </p>
 
 ## [TODO] Challenge restApi Application
-<p>Bu todoApp restApi uygulamasında Laravel 8 ile geliştirme yaptım ve birçok özelliği kullanmaya çalıştım. Laravel mimarisinin dışında mikroservis mimarisini de dikkate aldım. Genel Restful API kurallarını da uyguladım.</p>
+<p>Bu todoApp restApi uygulamasında Laravel 8 ile geliştirme yaptım ve birçok özelliği kullanmaya çalıştım. Laravel mimarisinin dışında mikro/servis mimarisini de dikkate aldım. Genel Restful API kurallarını da uyguladım.</p>
 <p>Kullanıcı kaydı oluşturma, giriş yapma ve kayıt gerçekleştirirken device platform bilgileri alınarak device tablosuna eklenmektedir. Bunun dışında ürün oluşturma, ayrıntı görüntüleme, güncelleme ve silme gibi CRUD işlemleri yapılmaktadır.</p>
 <h3>Mimari Hakkında:</h3>
 <hr>
